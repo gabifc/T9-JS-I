@@ -20,8 +20,15 @@
 
 
 3. Faça um script que leia três números inteiros e mostre o maior deles.
+- ler 3 valores
+- condicao qual é o maior deles
+
 
 4. Faça um script que pede dois inteiros e armazene eles em duas variáveis. Em seguida, troque o valor das variáveis, invertendo e exibindo o antes e o depois em uma janela de alert.
 Fazer duas variáveis trocarem de valores entre si - Variável Auxiliar
+
+x = 10
+y = 20
+
 
 
