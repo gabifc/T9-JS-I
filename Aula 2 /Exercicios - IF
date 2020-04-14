@@ -1,11 +1,23 @@
-1. leia um numero e verifique se ele é par ou impar utilizando % 2 === 0
-
+1. leia um numero e verifique se ele é par ou ímpar utilizando MOD  (% 2 === 0).
+- leia um numero: prompt
+- armazeno o numero numa variavel
+- fazer condicao para verificar se é par (if)
+- fazer condicao para verificar se é impar
+(else)
 
 2. Faça um script que pede duas notas de um aluno. Em seguida ele deve calcular a média do aluno e dar o seguinte resultado:
 
     A mensagem "Aprovado", se a média alcançada for maior ou igual a sete;
     A mensagem "Reprovado", se a média for menor do que sete;
     A mensagem "Aprovado com Distinção", se a média for igual a dez.
+
+- ler primeira nota (salvando)
+- ler segunda nota (salvando)
+- calcular a média: (soma todos os valores/2)
+- condicao 1 : média >= 7 'Aprovado'
+- condicao 2 : média <7 'Reprovado'
+- condicao 3 : média =10 'Aprovado com Distincao'
+
 
 3. Faça um script que leia três números inteiros e mostre o maior deles.
 
