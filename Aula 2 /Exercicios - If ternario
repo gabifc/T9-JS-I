@@ -15,10 +15,9 @@ alert('seja bem vindo')
 }
 
 3.
-let isIphone = false;
-let os;
 
-if (isIphone) {
+
+if (isIphone === true) {
   os = "iOS";
 } else {
   os = "Android";
