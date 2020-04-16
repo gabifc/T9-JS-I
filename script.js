@@ -379,3 +379,49 @@ if (lista.length > 0 ) {
 }
 */
 
+// ----- Exercício Função linkada com HTML
+
+/* Como vou somar preciso de 3 variáveis: valor 1 (x) valor 2 (y)e
+total.*/
+let valor1; //(x)
+let valor2; //(y)
+let total;
+
+// a primeira função é a do onchange this value para receber o valor digitado.
+function capturarValor1(x) {
+    valor1=parseInt(x);
+} 
+// apos receber o valor ele add o valor digitado ao valor1 e converte
+// de string para numero com o parseInt.
+
+// a segunda função é a mesma coisa do valor1 só que para o valor2
+function capturarValor2(y) {
+    valor2=parseInt(y);
+} 
+
+// agora criamos uma função para ele somar o valor recebido no 1 e no 2
+function somar() { // aqui está a função somar() criada lá no HTML
+    total = valor1 + valor2; // e aqui usa a let total atribuindo o valor da soma dos valores 1 e 2
+    alert('O total da soma é: '  + total);
+}
+
+// função subtrair criada no HTML e o total assume a subtração
+function subtrair(){
+    total = valor1 - valor2;
+    alert('O total da subtração é: ' + total);
+}
+
+function multiplicar(){
+    total = valor1 * valor2;
+    alert('O total da multiplicação é: ' + total);
+}
+
+function dividir(){
+    total = valor1 / valor2;
+    alert('O total da divisão é: ' + total);
+}
+
+function resto(){
+    total = valor1 % valor2;
+    alert('O resto da divisão é: ' + total);
+}

@@ -1,13 +1,37 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript - Semana 2</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <!--<button class=btn> Clique aqui</button>--> <!--aqui é do exercicio1-->
+    <!--<button class=btn> Clique aqui</button>-->
+    <!--aqui é do exercicio1-->
+
+    <h1> Seja Bem-Vind@ a Calculadora JavaScript Roxa da Gabi!!! </h1>
+    <p> Digite os valores abaixo e clique na operação matemática para exibir o resultado em sua tela.</p>
+    <!--exercício de função-->
+    <p> Valor 1: <input class="input" type="text" onchange="capturarValor1(this.value)"></input> </p>
+    <p>Valor 2: <input class="input" type="text" onchange="capturarValor2(this.value)"></input> </p> <br>
+    <br> <!--onchange + this.value para capturar o valor que a pessoa digitar no site-->
+
+    <button onclick="somar()">Somar</button>
+    <!--onclick significa quando clicar execute a função "somar()"" descrita lá no JS-->
+
+    <button onclick="subtrair()">Subtrair</button>
+
+    <button onclick="multiplicar()">Multiplicar</button>
+
+    <button onclick="dividir()">Dividir</button>
+
+    <button onclick="resto()">Resto</button>
+
+
     <script type="text/javascript" src="script.js"></script>
 </body>
+
 </html>
