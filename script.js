@@ -425,3 +425,5 @@ function resto(){
     total = valor1 % valor2;
     alert('O resto da divisão é: ' + total);
 }
+
+/*
